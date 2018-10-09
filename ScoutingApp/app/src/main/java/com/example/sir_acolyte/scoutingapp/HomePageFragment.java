@@ -10,10 +10,7 @@ import android.view.ViewGroup;
 public class HomePageFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-        View rootView = inflater.inflate(R.layout.content_main, container, false);
-
-        //Insert text fields or other elements here
-
+        View rootView = inflater.inflate(R.layout.fragment_home_page, container, false);
         return rootView;
     }
 }
